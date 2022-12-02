@@ -10,3 +10,4 @@ b = a;
 ////
 var myFirstName = 'Daniel';
 var myLastName = 'Ostrovsky';
+/////
