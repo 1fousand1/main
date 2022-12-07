@@ -12,3 +12,18 @@ function solution(str){
 }
 
 //функция переворачивает строку str - rts
+
+function makeNegative(num) {
+    if (num < 0) return num;
+    else  return -(num); 
+}
+
+//возвращает негативное число
+
+function evenOrOdd(number) {
+    if (number % 2 == 0) return "Even";
+    else  return "Odd";
+  }
+
+//Возвращает четное(Even) если четное и нечетеное(Odd) если нечетное
+
