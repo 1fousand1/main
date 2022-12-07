@@ -33,3 +33,15 @@ function repeatStr (n, s) {
 
 //Возвращает строки умноженные n-раз
 
+function positiveSum(arr) {
+    var numbers = arr;
+    var positive = numbers.filter(function(number) {
+        return number > 0;
+    });
+    var result = positive.reduce(function(sum, current) {
+        return sum + current;
+      }, 0);
+    return result;
+}
+//Получает на вход массив и фильтрует его по-элементно оставляя положительные числа 
+//Суммирует их
