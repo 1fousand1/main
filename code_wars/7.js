@@ -27,3 +27,9 @@ function evenOrOdd(number) {
 
 //Возвращает четное(Even) если четное и нечетеное(Odd) если нечетное
 
+function repeatStr (n, s) {
+    return s.repeat(n);  
+  }
+
+//Возвращает строки умноженные n-раз
+
