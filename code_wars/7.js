@@ -51,3 +51,9 @@ function removeChar(str){
 };
    
 //Удаляет первый и последний символ строки
+
+function findSmallestInt(args) {
+       return Math.min.apply(null, args);
+    }
+
+//находит и выводит минимальное число массива
