@@ -5,3 +5,10 @@ function opposite(number) {
 
 
   ////нужно превратить отрицательное число в положительно, а положительное в отрицательное
+
+function solution(str){
+    let reversedStr = str.split('').reverse().join('');
+    return reversedStr
+}
+
+//функция переворачивает строку str - rts
