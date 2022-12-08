@@ -14,3 +14,13 @@ function noSpace(x){
   }
 
 //убирает все пробелы из строки
+
+function sumN(num) {
+    let sum = 0;
+    for (let i = 1; i <= num; i++) {
+      sum += i;
+    }
+    return sum;
+}
+
+//Вычисляет сумму чисел до данного
