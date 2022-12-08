@@ -6,4 +6,11 @@ function squareSum(numbers){
     return result;
 }
 
-///Возвращает квадратную сумму
+//Возвращает квадратную сумму
+
+function noSpace(x){
+    let str = x
+    return str.split(" ").join("");
+  }
+
+//убирает все пробелы из строки
