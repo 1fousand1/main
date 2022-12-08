@@ -41,3 +41,10 @@ function greet() {
   }
 
   //функция которая "креативным способом" выдает хеллоу ворлд
+  
+  const stringToNumber = function(str){
+    let num = Number(str);
+    return num;
+  }
+
+//превращает номер в число
