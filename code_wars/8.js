@@ -24,3 +24,20 @@ function sumN(num) {
 }
 
 //Вычисляет сумму чисел до данного
+
+
+function greet() {
+    let h = "h";
+    let e = "e";
+    let l = "l";;
+    let o = "o";
+    let space = " ";
+    let w = "w";
+    let r = "r";
+    let d = "d";
+    let symb = "!";
+    let res= h+e+l+l+o+space+w+o+r+l+d+symb;
+    return res;// Write a function "greet" that returns "hello world!"
+  }
+
+  //функция которая "креативным способом" выдает хеллоу ворлд
