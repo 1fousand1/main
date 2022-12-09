@@ -77,4 +77,12 @@ function greet() {
 //   // }
 //Находит большее значение строки и меньшее - тоже не пошло
 
+function greet(name){
+  let userName = name;
+  let str = `Hello, ${userName} how are you doing today?`;
+  return str;
+}
+//Вставляет имя юзера в шаблонное приветствие
+
+
 
