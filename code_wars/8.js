@@ -79,7 +79,7 @@ function greet() {
 
 function greet(name){
   let userName = name;
-  let str = `Hello, ${userName} how are you doing today?`;
+  let str = `Hello, ${userName} how are you doing today?`; //без ` ` - работать не будет
   return str;
 }
 //Вставляет имя юзера в шаблонное приветствие
@@ -93,3 +93,5 @@ function basicOp(operation, value1, value2)
 }
 
 //четыре базовые мат. операции
+
+/////
