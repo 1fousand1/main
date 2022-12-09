@@ -48,3 +48,33 @@ function greet() {
   }
 
 //превращает номер в число
+
+// function countSheeps(arrayOfSheep) {
+//   const numbers = [true,  true,  true,  false,
+//     true,  true,  true,  true ,
+//     true,  false, true,  false,
+//     true,  false, false, true ,
+//     true,  true,  true,  true ,
+//     false, false, true,  true ];
+//   const countItems = {};
+//   for (const item of numbers) {
+//     countItems[item] = countItems[item] ? countItems[item] + 1 : 1;
+//     console.log(countItems[item]);
+//   }
+// }
+//подсчет повторяющихся элементов списка - не пашет, подумать ещё
+
+
+
+// function highAndLow(numbers){
+//   // var numbers = Numbers("1 2 3 4 5");
+//   // var arr = numbers;//.split(' ');
+//   // var min = Math.min(arr);
+//   // var mx = Math.max(arr);
+//   // //var res = mx + min;
+//   //   //console.log(res.join());
+//   //   console.log(min);
+//   // }
+//Находит большее значение строки и меньшее - тоже не пошло
+
+
