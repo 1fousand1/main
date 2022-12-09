@@ -84,5 +84,12 @@ function greet(name){
 }
 //Вставляет имя юзера в шаблонное приветствие
 
+function basicOp(operation, value1, value2)
+{
+  if (operation =='+') return value1+value2;
+  if (operation =='-') return value1-value2;
+  if (operation =='*') return value1*value2; 
+  if (operation =='/') return value1/value2;
+}
 
-
+//четыре базовые мат. операции
