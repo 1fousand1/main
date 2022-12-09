@@ -84,14 +84,23 @@ function greet(name){
 }
 //Вставляет имя юзера в шаблонное приветствие
 
-function basicOp(operation, value1, value2)
-{
-  if (operation =='+') return value1+value2;
-  if (operation =='-') return value1-value2;
-  if (operation =='*') return value1*value2; 
-  if (operation =='/') return value1/value2;
+// // function basicOp(operation, value1, value2)
+// // {
+// //   if (operation =='+') return value1+value2;
+// //   if (operation =='-') return value1-value2;
+// //   if (operation =='*') return value1*value2; 
+// //   if (operation =='/') return value1/value2;
+// // не красивый вариант
+
+function basicOp(operation, value1, value2) {
+  switch (operation) {
+      case '+': return value1 + value2;
+      case '-': return value1 - value2;
+      case '*': return value1 * value2;
+      case '/': return value1 / value2;
+      default: return 'Operation must be one of + - * /';
+  }
 }
 
 //четыре базовые мат. операции //нужно исправить на норм вариант и подумать что тут не так
 
-/////
