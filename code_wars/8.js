@@ -119,3 +119,16 @@ function makeUpperCase(str) {
     return str.toUpperCase();
 }
 //пишет весь текст заглавными 
+
+function lovefunc(flower1, flower2){
+  if (flower1 % 2 == 0 && flower2 % 2 != 0){
+    return "true";
+  } else if (flower1 % 2 != 0 && flower2 % 2 == 0){
+    return "true";
+  } else {
+    return "false";
+  }
+
+}
+
+//нечетное и четно число на вход на выход даст Тру, все остальное фолс - не проходит все тесты
