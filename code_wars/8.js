@@ -112,7 +112,10 @@ function booleanToString(b){
 
 function maps(x){
   let arr = x;
-  return arr = arr.map(el => el *2);
- 
+  return arr = arr.map(el => el *2); 
 }
 //умножает каждый элемент массива на 2
+function makeUpperCase(str) {
+    return str.toUpperCase();
+}
+//пишет весь текст заглавными 
