@@ -105,8 +105,14 @@ function basicOp(operation, value1, value2) {
 //четыре базовые мат. операции //
 
 function booleanToString(b){
-  if(b == true) return "true"
-  else return "false"
+  if(b == true) return "true";
+  else return "false";
 }
 //получает логические данные выводит стринг
 
+function maps(x){
+  let arr = x;
+  return arr = arr.map(el => el *2);
+ 
+}
+//умножает каждый элемент массива на 2
