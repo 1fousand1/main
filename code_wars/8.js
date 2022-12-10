@@ -102,5 +102,11 @@ function basicOp(operation, value1, value2) {
   }
 }
 
-//четыре базовые мат. операции //нужно исправить на норм вариант и подумать что тут не так
+//четыре базовые мат. операции //
+
+function booleanToString(b){
+  if(b == true) return "true"
+  else return "false"
+}
+//получает логические данные выводит стринг
 
