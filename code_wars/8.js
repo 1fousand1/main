@@ -132,3 +132,11 @@ function lovefunc(flower1, flower2){
 }
 
 //нечетное и четно число на вход на выход даст Тру, все остальное фолс - не проходит все тесты
+function simpleMultiplication(number) {
+  if (number % 2 == 0) {
+    return number*8;
+  } else  {
+    return number*9;
+  }
+}
+//Если четное чилсло на вход, то умножаем на 8, если нечетное на 9
