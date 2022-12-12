@@ -164,3 +164,8 @@ function invert(array) {
   return array ;
 }
 // Перевернуть(инвертировать) все значения в списке 
+
+function doubleInteger(i) {
+  return i*2;
+}
+//просто нужно удвоить число и вернуть обратно
