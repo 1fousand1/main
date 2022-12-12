@@ -175,3 +175,13 @@ function DNAtoRNA(dna) {
  }
 
  //Заменить все T на U
+
+ const reverseSeq = n => {
+    var start = n;
+    var result = [];
+    while (start > 0) {
+      result.push(start--);
+    };
+    return result
+};
+ //на вход дается число создается список чисел в порядке от числа до нуля
