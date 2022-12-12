@@ -140,3 +140,15 @@ function simpleMultiplication(number) {
   }
 }
 //Если четное чилсло на вход, то умножаем на 8, если нечетное на 9
+
+function areYouPlayingBanjo(name) {
+  if name.includes(R[0,0]) | name.includes(r[0,0]){
+    return name + " plays banjo" 
+  } else {
+    return name + " does not play banjo"
+  }
+}
+
+//не пашет
+//функция на вход получает имя, если оно начианет с r либо R то выдает имя + вы граете в банджо
+//в других случаях выдает имя + вы не играете в банджо
