@@ -152,3 +152,15 @@ function areYouPlayingBanjo(name) {
 //не пашет
 //функция на вход получает имя, если оно начианет с r либо R то выдает имя + вы граете в банджо
 //в других случаях выдает имя + вы не играете в банджо
+
+
+function invert(array) {
+  for (let i = 0; i < array.length; i++) {
+        if(array[i] == "0") {
+          array[i] = array[i] * (1);
+        }
+        array[i] = array[i] * (-1);
+     }
+  return array ;
+}
+// Перевернуть(инвертировать) все значения в списке 
