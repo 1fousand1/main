@@ -169,3 +169,9 @@ function doubleInteger(i) {
   return i*2;
 }
 //просто нужно удвоить число и вернуть обратно
+
+function DNAtoRNA(dna) {
+  return dna.replace(/T/g,'U')  
+ }
+
+ //Заменить все T на U
