@@ -196,3 +196,9 @@ function DNAtoRNA(dna) {
   return str.split(' ').reverse().join(' ')
 }
  //меняет слова местами
+
+ function smash(words) {
+    return words.join(" ");
+};
+
+ //соединяет массив в одну строку
