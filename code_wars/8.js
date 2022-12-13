@@ -247,3 +247,8 @@ const rps = (p1, p2) => {
   }
 
   //посчитать количество элементов
+
+function sum (numbers) {
+  return numbers.reduce((a, b) => a + b, 0);
+};
+  //посчитать сумму элементов массива
