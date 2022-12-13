@@ -204,7 +204,7 @@ function DNAtoRNA(dna) {
  //соединяет массив в одну строку
 
 const rps = (p1, p2) => {
-  switch (p1,p2) {
+  switch (p1, p2) {
       case (p1 === 'scissors' && p2 === 'paper'):
         return 'Player 1 won!';
         break;
@@ -239,3 +239,11 @@ const rps = (p1, p2) => {
 }
 
   //игра камень ножницы бумага
+
+  function monkeyCount(n) {
+    const N = n;
+    const arr = Array.from({length: N}, (_, index) => index + 1);
+    return arr;
+  }
+
+  //посчитать количество элементов
