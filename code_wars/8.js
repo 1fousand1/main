@@ -191,3 +191,8 @@ function DNAtoRNA(dna) {
 }
 
  //делает массив из строки разделяя по пробельному символу
+
+ function reverseWords(str){
+  return str.split(' ').reverse().join(' ')
+}
+ //меняет слова местами
