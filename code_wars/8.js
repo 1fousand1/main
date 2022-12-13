@@ -185,3 +185,9 @@ function DNAtoRNA(dna) {
     return result
 };
  //на вход дается число создается список чисел в порядке от числа до нуля
+
+ function stringToArray(string){
+  return string.split(" ");
+}
+
+ //делает массив из строки разделяя по пробельному символу
