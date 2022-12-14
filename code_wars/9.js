@@ -54,3 +54,35 @@ function sumStr(a,b) {
     return String(sum)
   }
 // трансформирует строки в числа, суммирует их и сумму трансформирует обрано в строку  
+
+function validateHello(greetings) {  
+    var greet = greetings;
+        switch (greet) {
+            case 'hello':
+                return greetings.includes('hello');
+                break;
+            case 'ciao':
+                return greetings.includes('ciao');
+                break;
+            case 'salut':
+                return greetings.includes('salut');
+                break;
+            case 'hallo':
+                return greetings.includes('hallo');
+                break;
+            case 'hola':
+                return greetings.includes('hola');
+                break;
+            case 'ahoj':
+                return greetings.includes('ahoj');
+                break;
+            case'czesc':
+                return greetings.includes('czesc');
+                break;
+            default:
+                return false;
+                break;
+        } 
+    }
+
+//ищет определенные слова 'приветсвия' в подстроке и выводит тру либо фолс
