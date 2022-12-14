@@ -203,42 +203,45 @@ function DNAtoRNA(dna) {
 
  //соединяет массив в одну строку
 
-const rps = (p1, p2) => {
-  switch (p1, p2) {
-      case (p1 === 'scissors' && p2 === 'paper'):
-        return 'Player 1 won!';
-        break;
-      case (p1 === 'paper' && p2 === 'scissors'):
-        return 'Player 2 won!';
-        break;
-      case (p1 === 'scissors' && p2 === 'rock'):
-        return 'Player 2 won!';
-        break;
-      case (p1 === 'rock' && p2 === 'scissors'):
-        return 'Player 1 won!';
-        break;
-      case (p1 === 'paper' && p2 === 'rock'):
-        return 'Player 1 won!';
-        break;
-      case (p1 === 'rock' && p2 === 'paper'):
-        return 'Player 2 won!';
-        break;
-      case (p1 === 'scissors' && p2 === 'scissors'):
-        return 'Draw!';
-        break;
-      case (p1 === 'rock' && p2 === 'rock'):
-        return 'Draw!';
-        break;
-      case (p1 === 'paper' && p2 === 'paper'):
-        return 'Draw!';
-        break;
-      default:
-        return 'Draw!';
-        break;
-  } 
-}
 
-  //игра камень ножницы бумага
+ const game = (p1, p2) => {
+  let symb = p1;
+  let symb2 = p2;
+    switch (symb === p1 && symb2 ===p2) {
+        case (p1 === 'scissors' && p2 === 'paper'):
+          return 'Player 1 won!';
+          break;
+        case (p1 === 'paper' && p2 === 'scissors'):
+          return 'Player 2 won!';
+          break;
+        case (p1 === 'scissors' && p2 === 'rock'):
+          return 'Player 2 won!';
+          break;
+        case (p1 === 'rock' && p2 === 'scissors'):
+          return 'Player 1 won!';
+          break;
+        case (p1 === 'paper' && p2 === 'rock'):
+          return 'Player 1 won!';
+          break;
+        case (p1 === 'rock' && p2 === 'paper'):
+          return 'Player 2 won!';
+          break;
+        case (p1 === 'scissors' && p2 === 'scissors'):
+          return 'Draw!';
+          break;
+        case (p1 === 'rock' && p2 === 'rock'):
+          return 'Draw!';
+          break;
+        case (p1 === 'paper' && p2 === 'paper'):
+          return 'Draw!';
+          break;
+        default:
+          return 'Draw!';
+          break;
+    } 
+  }
+
+  //игра камень ножницы бумага - исправил
 
   function monkeyCount(n) {
     const N = n;
