@@ -124,3 +124,29 @@ function paperwork(n, m) {
   //Ваши одноклассники попросили вас скопировать для них некоторые документы. 
   //Вы знаете, что одноклассников "n", а в документе "m" страниц 
   //If n < 0 or m < 0 return 0.
+
+
+  function getPlanetName(id){
+    switch(id){
+      case 1:
+        return id = 'Mercury';
+      case 2:
+        return id = 'Venus';
+      case 3:
+       return id = 'Earth';
+      case 4:
+        return id = 'Mars';
+      case 5:
+        return id = 'Jupiter';
+      case 6:
+        return id = 'Saturn';
+      case 7:
+        return id= 'Uranus';
+      case 8:
+        return id = 'Neptune';
+      default:
+        break;
+    }
+    
+  }
+  //нужно было поправить функцию, чтобы возвращало верный айди
