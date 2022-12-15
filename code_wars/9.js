@@ -103,3 +103,24 @@ function doubleChar(str) {
   }  
 
 //удвоение каждого символа в строке
+
+function countSheeps(arrayOfSheep) {
+    var count = 0;
+      for(var i = 0; i < arrayOfSheep.length; ++i){
+          if(arrayOfSheep[i] == true)
+              count++;
+      }
+      return count
+    }
+//подсчитать количество true в массиве
+function paperwork(n, m) {
+    if (n<0 || m<0){
+      return 0;
+    } else {
+      return n*m;
+    }
+  }
+
+  //Ваши одноклассники попросили вас скопировать для них некоторые документы. 
+  //Вы знаете, что одноклассников "n", а в документе "m" страниц 
+  //If n < 0 or m < 0 return 0.
