@@ -150,3 +150,14 @@ function paperwork(n, m) {
     
   }
   //нужно было поправить функцию, чтобы возвращало верный айди
+
+
+  function testEven(n) {
+    if (n % 2 == 0) { 
+    return true;
+    } else {
+      return false;
+    }
+  }
+  //Возврашает тру если подается на вход четное
+
