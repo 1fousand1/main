@@ -181,3 +181,13 @@ function paperwork(n, m) {
     }
   }
  //получает на вход количество дней, выдает итоговую сумму за аренду
+
+function areYouPlayingBanjo(name) {
+  if (name[0] == 'R' || name[0] == 'r'){ 
+    return name + " plays banjo";
+  }  else {
+    return name + " does not play banjo";
+  }
+}
+ //если в строке первый сивмол r || R, то возвращает строку + plays banjo,
+ //если первый символ иной, возвращает  does not play banjo
