@@ -191,3 +191,12 @@ function areYouPlayingBanjo(name) {
 }
  //если в строке первый сивмол r || R, то возвращает строку + plays banjo,
  //если первый символ иной, возвращает  does not play banjo
+
+function getAverage(marks){
+  let sum = 0;
+  for (let i = 0; i < marks.length; i += 1) { 
+    sum += marks[i]; 
+  }
+  return Math.round(sum / marks.length); 
+}
+ //находит среднее значение массива и округляет его до целого 
