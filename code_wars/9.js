@@ -160,4 +160,14 @@ function paperwork(n, m) {
     }
   }
   //Возврашает тру если подается на вход четное
+  
+  function greet(name){
+    if(name === "Johnny")
+      return "Hello, my love!";
+    else{
+       return "Hello, " + name + "!"
+      
+    }
+  }
+  //Задебажил код, всем выводит привет нейм, а для johnny выводит другое сообщение
 
